@@ -1,0 +1,37 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather Application with OpenWeatherMap API",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js",
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "javascript",
+    "express"
+  ],
+  "author": "Olivia",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
